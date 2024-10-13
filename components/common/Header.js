@@ -27,7 +27,7 @@ const Header = () => {
               Home
             </Link>
             <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>
-              Agency
+              About Us
             </Link>
             <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
               Team
@@ -36,7 +36,13 @@ const Header = () => {
               Services
             </Link>
             <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
-              Showcase
+              Projects
+            </Link>
+            <Link href='/conference' className={activeLink == "/donate" ? "activeLink" : "none"}>
+              Conference
+            </Link>
+            <Link href='/donate' className={activeLink == "/donate" ? "activeLink" : "none"}>
+              Donate
             </Link>
             <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
               Blog
@@ -44,7 +50,7 @@ const Header = () => {
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
-            <button className='button-primary'>book a consultation</button>
+            <button className='button-primary'>Profile</button>
           </nav>
           <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>
