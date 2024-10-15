@@ -42,7 +42,7 @@ const Header = () => {
               Conference
             </Link>
             <Link href='/donate' className={activeLink == "/donate" ? "activeLink" : "none"}>
-              Donate
+            Faire un Don
             </Link>
             <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
               Blog
