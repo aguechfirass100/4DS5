@@ -51,16 +51,16 @@ const Footer = () => {
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href='/'>Conseils Personnalisés</Link>
               </li>
               <li>
-                <Link href='/'>Branding & Creative Services</Link>
+                <Link href='/'>Formations En Ligne</Link>
               </li>
               <li>
-                <Link href='/'>Digital Marketing</Link>
+                <Link href='/'>Ateliers Interactifs</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href='/'>Community Forums</Link>
               </li>
             </ul>
             <ul>

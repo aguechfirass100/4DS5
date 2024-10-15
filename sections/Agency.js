@@ -11,41 +11,41 @@ const Agency = () => {
           <div className='heading-title'>
             <TitleSm title='ABOUT AGENCY' /> <br />
             <br />
-            <Title title='The last digital agency you will ever need!' className='title-bg' />
+            <Title title="CONSTRUIRE DEMAIN AUJOURD'HUI" className='title-bg' />
           </div>
 
           <div className='content flex1'>
             <div className='left w-60 py'>
-              <TitleSm title='Turning your business ideas into smart digital products since 2001' />
-              <p className='desc-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus eleifend magna, molestie iaculis sem pulvinar eu. Etiam non dui felis. Proin posuere dapibus magna laoreet posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, sem eget sollicitudin tempor, libero velit aliquam enim, vel egestas tortor ante quis sem.</p>
+              <TitleSm title='À Propos de Notre Parti' />
+              <p className='desc-p'>Chez Développement Durable, nous croyons que le développement durable est la clé pour bâtir une société prospère aujourd'hui tout en préservant la planète pour les générations futures. Notre mission est de mettre en place des politiques éco-responsables, de réduire les déchets et de promouvoir l'innovation verte. En investissant dans les énergies renouvelables, en soutenant l'agriculture durable et en favorisant une culture de responsabilité environnementale, nous visons à créer un avenir où progrès et durabilité vont de pair.</p>
               <div className='grid-3'>
                 <div className='box'>
-                  <h1 className='indigo'>10+</h1>
-                  <h3>Years of experience</h3>
+                  <h1 className='indigo'>30+</h1>
+                  <h3>Experts</h3>
                 </div>
                 <div className='box'>
                   <h1 className='indigo'>50+</h1>
-                  <h3>Successful cases</h3>
+                  <h3>Projects</h3>
                 </div>
                 <div className='box'>
-                  <h1 className='indigo'>12+</h1>
-                  <h3>Industry awards</h3>
+                  <h1 className='indigo'>10+</h1>
+                  <h3>ODD</h3>
                 </div>
               </div>
             </div>
             <div className='right w-40 ml'>
-              <img src='/images/s1.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/wind turbine.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
           </div>
 
           <div className='content flex'>
             <div className='left w-40 py'>
-              <img src='/images/s4.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/electric-bus-mobility.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right w-60 ml'>
-              <TitleSm title='Our mission' />
+              <TitleSm title='Notre Vision' />
               <br />
-              <p className='misson-p'>Fusce fringilla justo vel dui consectetur, fringilla maximus ante malesuada. Suspendisse facilisis nisl augue, ut sollicitudin lectus ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse vitae officia nostrum facere. Fugiat voluptates, expedita dolore at perferendis quae libero fuga consequatur veniam, eius non fugit nulla vitae?</p>
+              <p className='misson-p'>Nous envisageons un monde où la croissance économique respecte les limites de nos ressources naturelles. À travers des infrastructures vertes, des énergies propres et des économies circulaires, nous pouvons construire une société qui place l'humain et la planète au cœur de ses priorités. Avec votre soutien, nous pouvons faire de la vie durable non pas une option, mais une norme.</p>
             </div>
           </div>
         </div>

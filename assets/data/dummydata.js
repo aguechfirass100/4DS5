@@ -26,25 +26,25 @@ export const expertise = [
     id: 1,
     title: "Conseils Personnalisés",
     cover: "../images/conseil-personnalise.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [{ text: "Analyse des Besoins" }, { text: "Suivi et Évaluation" }, { text: "Ressources et Outils" }, { text: "Partenariats Locaux" }, { text: "Financement et Subventions" }],
   },
   {
     id: 2,
     title: "Formations En Ligne",
     cover: "../images/slider-ecole.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    desc: [{ text: "Certifications" }, { text: "Intervenants Experts" }, { text: "Webinaires et Événements" }, { text: "Thématiques Variées" }],
   },
   {
     id: 3,
     title: "Ateliers Interactifs",
     cover: "../images/agriculture.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    desc: [{ text: "Expérience Pratique" }, { text: "Collaborations Dynamiques" }, { text: "Création de Projets" }, { text: "Feedback Constructif" }],
   },
   {
     id: 4,
     title: "Community Forums",
     cover: "../images/Community-Center.png",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [{ text: "Espace d'Échange" }, { text: "Support Collaboratif" }, { text: "Partage de Ressources" }],
   },
 ]
 export const testimonial = [
@@ -78,30 +78,32 @@ export const testimonial = [
   },
 ]
 export const showcase = [
+  
   {
     id: 1,
-    title: "Agriculture Projects",
-    cover: "../images/agriculture tn.jpg",
-    catgeory: "Agriculture",
-  },
-  {
-    id: 2,
-    title: "Electric Vehicles",
-    catgeory: "Futuristic",
-    cover: "../images/electric vehicles.jpg",
-  },
-  {
-    id: 3,
-    title: "Smart Living",
-    cover: "../images/smart house.jpg",
-    catgeory: "Futuristic",
-  },
-  {
-    id: 4,
     title: "Solar pannel project",
     cover: "../images/solar pannels desert.jpg",
     catgeory: "Energy",
   },
+  {
+    id: 2,
+    title: "Electric Charging Stations",
+    catgeory: "Futuristic",
+    cover: "../images/electric charging stations.jpg",
+  },
+  {
+    id: 3,
+    title: "Water Damn Project",
+    cover: "../images/home_image.jpg",
+    catgeory: "Agriculture",
+  },
+  {
+    id: 4,
+    title: "Agriculture Projects",
+    cover: "../images/agriculture tn.jpg",
+    catgeory: "Agriculture",
+  },
+  
   {
     id: 5,
     title: "Urban Agriculture",
@@ -109,11 +111,15 @@ export const showcase = [
     catgeory: "Agriculture",
   },
   {
-    id: 5,
-    title: "Water Damn Project",
-    cover: "../images/water dam.jpg",
-    catgeory: "Agriculture",
+    id: 6,
+    title: "Sustainable Smart Living",
+    cover: "../images/sustainable homes.jpg",
+    catgeory: "Futuristic",
   },
+  
+  
+  
+  
 ]
 export const brand = [
   {
@@ -174,45 +180,45 @@ export const blogdata = [
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
-    cover: "../images/t1.jpg",
-    post: "FOUNDER, CEO",
+    title: "Mathiew Fretz",
+    cover: "../images/mathiew-fretz.jpg",
+    post: "Expert en Environnement",
   },
   {
     id: 2,
-    title: "Anna Kovalenko",
-    cover: "../images/t2.jpg",
-    post: "FINANCE DIRECTOR",
+    title: "Diana Green",
+    cover: "../images/diana-green.jpg",
+    post: "Spécialiste en Communication Environnementale",
   },
   {
     id: 3,
-    title: "Tiffany White",
-    cover: "../images/t3.jpg",
-    post: "CREATIVE DIRECTOR",
+    title: "Jason Polom",
+    cover: "../images/jason-polom.jpg",
+    post: "Agronome",
   },
   {
     id: 4,
-    title: "Richard Greenwood",
-    cover: "../images/t4.jpg",
-    post: "PROGRAMMER",
+    title: "Emiley Yi",
+    cover: "../images/emiley-yi.jpg",
+    post: "Ingénieur en Énergies Renouvelables",
   },
   {
     id: 5,
     title: "Jessica Brown",
-    cover: "../images/t5.jpg",
-    post: "MARKETING DIRECTOR",
+    cover: "../images/jessica brown.jpg",
+    post: "Urbaniste",
   },
   {
     id: 6,
     title: "Gregory Windstorm",
-    cover: "../images/t6.jpg",
-    post: "ACCOUNTING MANAGER",
+    cover: "../images/gregory windstorm.jpg",
+    post: "Chercheur en Développement Durable",
   },
   {
     id: 7,
     title: "Anna Red",
-    cover: "../images/t7.jpg",
-    post: "PROJECT MANAGER",
+    cover: "../images/anne.jpg",
+    post: "Architecte Durable",
   },
   {
     id: 8,
