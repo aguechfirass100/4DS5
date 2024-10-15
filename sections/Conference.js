@@ -37,15 +37,103 @@ const Conference = () => {
   const addSampleEvents = () => {
     const sampleEvents = [
       {
-        title: "Team A Meeting",
+        title: "Réunion de l'équipe A",
         start: "2024-10-15T10:00:00",
         end: "2024-10-15T11:00:00",
-        description: "Discuss project progress",
-        location: "Zoom",
-        speakers: ["Alice", "Bob"],
+        description: "Discussion sur les progrès du projet de réforme sociale",
+        location: "Online - Zoom",
+        speakers: ["Alice Dupont", "Bob Martin"],
       },
-      // ... (add more sample events as needed)
+      {
+        title: "Conférence sur l'innovation politique",
+        start: "2024-10-17T09:00:00",
+        end: "2024-10-17T12:00:00",
+        description: "Débats sur les nouvelles approches politiques pour la prochaine décennie",
+        location: "Online - Zoom",
+        speakers: ["Dr. Émilie Caron", "Jean Dupuis"],
+      },
+      {
+        title: "Sommet sur l'IA et l'impact social",
+        start: "2024-10-20T14:00:00",
+        end: "2024-10-20T17:00:00",
+        description: "Exploration de l'impact de l'IA sur les politiques sociales",
+        location: "Online - Zoom",
+        speakers: ["Sarah Lemoine", "Michel Bergeron"],
+      },
+      {
+        title: "Réunion stratégique pour la campagne",
+        start: "2024-10-16T11:30:00",
+        end: "2024-10-16T12:30:00",
+        description: "Planification des initiatives de la campagne pour les élections à venir",
+        location: "Online - Zoom",
+        speakers: ["Jeanne Lefèvre", "Marc Moreau"],
+      },
+      {
+        title: "Atelier de développement de projet",
+        start: "2024-10-18T10:00:00",
+        end: "2024-10-18T12:00:00",
+        description: "Élaboration des propositions pour la nouvelle plateforme politique",
+        location: "Online - Zoom",
+        speakers: ["Thomas Petit", "Diane Leroy"],
+      },
+      {
+        title: "Conférence sur la cybersécurité et la politique",
+        start: "2024-10-19T09:00:00",
+        end: "2024-10-19T16:00:00",
+        description: "Discussions sur la sécurité numérique et ses enjeux pour la politique",
+        location: "Online - Zoom",
+        speakers: ["Éthan Perret", "Nathalie Roux"],
+      },
+      {
+        title: "Mise à jour des politiques internes",
+        start: "2024-10-16T14:00:00",
+        end: "2024-10-16T15:00:00",
+        description: "Revue et discussion des nouvelles politiques du parti",
+        location: "Online - Zoom",
+        speakers: ["Équipe RH"],
+      },
+      {
+        title: "Réunion de revue financière",
+        start: "2024-10-17T13:00:00",
+        end: "2024-10-17T14:00:00",
+        description: "Examen des performances financières du trimestre",
+        location: "Online - Zoom",
+        speakers: ["Directeur financier", "Équipe des finances"],
+      },
+      {
+        title: "Lancement du sprint de design",
+        start: "2024-10-15T13:00:00",
+        end: "2024-10-15T15:00:00",
+        description: "Démarrage du sprint de design pour l'application de gestion politique",
+        location: "Online - Zoom",
+        speakers: ["Équipe UI/UX"],
+      },
+      {
+        title: "Stratégie de soutien aux électeurs",
+        start: "2024-10-18T14:00:00",
+        end: "2024-10-18T15:30:00",
+        description: "Amélioration du service de soutien aux électeurs pour les prochaines élections",
+        location: "Online - Zoom",
+        speakers: ["Responsable du soutien aux électeurs"],
+      },
+      {
+        title: "Session de planification e-commerce",
+        start: "2024-10-21T09:00:00",
+        end: "2024-10-21T11:00:00",
+        description: "Planification des ventes en ligne pour financer les campagnes électorales",
+        location: "Online - Zoom",
+        speakers: ["Équipe e-commerce", "Marketing"],
+      },
+      {
+        title: "Table ronde sur le leadership",
+        start: "2024-10-19T15:00:00",
+        end: "2024-10-19T17:00:00",
+        description: "Discussion sur les stratégies de leadership pour le parti",
+        location: "Online - Zoom",
+        speakers: ["Président du parti", "Vice-président des opérations"],
+      }
     ];
+    
 
     setEvents(sampleEvents);
   };

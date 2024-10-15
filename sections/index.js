@@ -5,5 +5,6 @@ import Team from "./Team"
 import Blog from "./Blog"
 import Contact from "./Contact"
 import Conference from "./Conference"
+import Donations from './Donations'
 
-export { Hero, Agency, Team, ShowCase, Blog, Contact, Conference }
+export { Hero, Agency, Team, ShowCase, Blog, Contact, Conference, Donations }

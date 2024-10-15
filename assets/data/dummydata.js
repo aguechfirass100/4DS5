@@ -77,50 +77,96 @@ export const testimonial = [
     desc: "Travailler avec le parti Développement Durable a été une expérience inspirante. Leur engagement envers la préservation de l'environnement et leur volonté d'impliquer la communauté dans des projets éco-responsables montrent qu'un changement positif est possible. Ensemble, nous pouvons bâtir un avenir où la nature et l'humain coexistent en harmonie.",
   },
 ]
+
+
 export const showcase = [
-  
   {
     id: 1,
-    title: "Solar pannel project",
+    title: "Projet de panneaux solaires",
     cover: "../images/solar pannels desert.jpg",
-    catgeory: "Energy",
+    catgeory: "Énergie",
+    description: "Ce projet de panneaux solaires vise à exploiter l'énergie solaire dans les régions désertiques, où les rayonnements solaires sont les plus intenses. Il a pour objectif de produire de l'électricité propre et durable, tout en réduisant la dépendance aux combustibles fossiles. L'installation de milliers de panneaux permettrait de générer une capacité suffisante pour alimenter des milliers de foyers et contribuer à la transition énergétique mondiale.",
+    goal: 50000,
+    raised: 20000,
+    topDonors: [
+      { name: "Alice", amount: 5000 },
+      { name: "Bob", amount: 3000 },
+      { name: "Charlie", amount: 1500 },
+    ]
   },
   {
     id: 2,
-    title: "Electric Charging Stations",
-    catgeory: "Futuristic",
+    title: "Stations de recharge électrique",
+    catgeory: "Futuriste",
     cover: "../images/electric charging stations.jpg",
+    description: "Les stations de recharge électrique sont une composante essentielle des infrastructures pour véhicules électriques. Ce projet propose un réseau de stations modernes, rapides et faciles d'accès, permettant aux propriétaires de véhicules électriques de recharger leurs batteries en toute tranquillité. En soutenant le passage à la mobilité durable, ce projet vise à réduire les émissions de gaz à effet de serre et à promouvoir l'adoption des véhicules propres dans les grandes agglomérations.",
+    goal: 100000,
+    raised: 45000,
+    topDonors: [
+      { name: "David", amount: 10000 },
+      { name: "Emily", amount: 7500 },
+      { name: "Frank", amount: 5000 },
+    ]
   },
   {
     id: 3,
-    title: "Water Damn Project",
+    title: "Projet de barrage hydraulique",
     cover: "../images/home_image.jpg",
     catgeory: "Agriculture",
+    description: "Ce projet de barrage hydraulique est conçu pour fournir une gestion efficace des ressources en eau dans les zones agricoles. Il permettra non seulement de stocker de l'eau pour l'irrigation, mais aussi de produire de l'énergie hydroélectrique. Ce type d'infrastructure est crucial pour soutenir les besoins croissants en agriculture tout en offrant une solution durable face à la variabilité climatique et à la rareté des ressources en eau.",
+    goal: 75000,
+    raised: 30000,
+    topDonors: [
+      { name: "George", amount: 12000 },
+      { name: "Hannah", amount: 8000 },
+      { name: "Ian", amount: 3000 },
+    ]
   },
   {
     id: 4,
-    title: "Agriculture Projects",
+    title: "Projets agricoles",
     cover: "../images/agriculture tn.jpg",
     catgeory: "Agriculture",
+    description: "Les projets agricoles mis en œuvre dans cette initiative visent à moderniser les méthodes agricoles traditionnelles à travers l'introduction de technologies innovantes. Cela inclut des systèmes d'irrigation intelligents, l'usage de drones pour la surveillance des cultures, ainsi que la promotion de l'agriculture biologique. Le but est d'augmenter la productivité tout en respectant les principes de durabilité et de protection de l'environnement.",
+    goal: 60000,
+    raised: 25000,
+    topDonors: [
+      { name: "John", amount: 10000 },
+      { name: "Karen", amount: 7000 },
+      { name: "Liam", amount: 5000 },
+    ]
   },
-  
   {
     id: 5,
-    title: "Urban Agriculture",
+    title: "Agriculture urbaine",
     cover: "../images/urban agriculture.jpg",
     catgeory: "Agriculture",
+    description: "Le projet d'agriculture urbaine se concentre sur l'intégration des pratiques agricoles dans les villes. Il propose de transformer les toits et les espaces vacants en jardins potagers et fermes verticales. En produisant des aliments localement, cette initiative réduit la dépendance aux transports alimentaires longue distance, diminue l'empreinte carbone, et améliore la résilience des communautés urbaines face aux défis environnementaux.",
+    goal: 40000,
+    raised: 20000,
+    topDonors: [
+      { name: "Mike", amount: 9000 },
+      { name: "Nina", amount: 6000 },
+      { name: "Oscar", amount: 2000 },
+    ]
   },
   {
     id: 6,
-    title: "Sustainable Smart Living",
+    title: "Vie intelligente et durable",
     cover: "../images/sustainable homes.jpg",
-    catgeory: "Futuristic",
-  },
-  
-  
-  
-  
-]
+    catgeory: "Futuriste",
+    description: "Ce projet propose une approche holistique de la construction de maisons intelligentes et durables, en intégrant les dernières innovations en matière d'efficacité énergétique et de technologie connectée. Chaque maison est conçue pour minimiser son impact environnemental en utilisant des matériaux écologiques, des systèmes de gestion énergétique optimisés et des solutions de gestion de l'eau. Le concept vise à créer un mode de vie durable qui s'adapte aux besoins futurs des villes intelligentes.",
+    goal: 120000,
+    raised: 60000,
+    topDonors: [
+      { name: "Paul", amount: 20000 },
+      { name: "Quinn", amount: 15000 },
+      { name: "Rachel", amount: 12000 },
+    ]
+  }
+];
+
+
 export const brand = [
   {
     id: 1,

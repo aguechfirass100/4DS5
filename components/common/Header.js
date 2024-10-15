@@ -38,10 +38,10 @@ const Header = () => {
             <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
               Projects
             </Link>
-            <Link href='/conference' className={activeLink == "/donate" ? "activeLink" : "none"}>
+            <Link href='/conference' className={activeLink == "/conference" ? "activeLink" : "none"}>
               Conference
             </Link>
-            <Link href='/donate' className={activeLink == "/donate" ? "activeLink" : "none"}>
+            <Link href='/donation' className={activeLink == "/donation" ? "activeLink" : "none"}>
               Donate
             </Link>
             <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
