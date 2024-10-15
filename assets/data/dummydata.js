@@ -6,75 +6,75 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "Participer à des Réunions Virtuelles et Webinaires",
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Unique technologies & modern approach ",
+    title: "Technologies uniques et approche moderne",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "Explorer une Carte des Projets Durables ",
   },
   {
     icon: <BiUser size={25} />,
-    title: "Customer satisfaction is our top priority",
+    title: "Forum Communautaire ",
   },
 ]
 export const expertise = [
   {
     id: 1,
-    title: "LOOOOOOOOOOOOOOOOOOOOOL",
-    cover: "../images/e1.jpg",
+    title: "Conseils Personnalisés",
+    cover: "../images/conseil-personnalise.jpg",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {
     id: 2,
-    title: "Digital Marketing",
-    cover: "../images/e2.jpg",
+    title: "Formations En Ligne",
+    cover: "../images/slider-ecole.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
     id: 3,
-    title: "E-Commerce",
-    cover: "../images/e3.jpg",
+    title: "Ateliers Interactifs",
+    cover: "../images/agriculture.jpg",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
-    cover: "../images/e4.jpg",
+    title: "Community Forums",
+    cover: "../images/Community-Center.png",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
 ]
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
-    cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    name: "Diana Green",
+    cover: "../images/diana-green.jpg",
+    post: "Spécialiste en Communication Environnementale",
+    desc: "Communiquer sur des projets de développement durable est crucial pour sensibiliser le public. Travailler avec le parti a révélé à quel point l'engagement communautaire est vital pour le succès de ces initiatives. Ensemble, nous avons la possibilité de toucher un large public et d'encourager chacun à adopter des comportements plus responsables.",
   },
   {
     id: 2,
-    name: "Diana Green",
-    cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    name: "Jason Polom",
+    cover: "../images/jason-polom.jpg",
+    post: "Agronome",
+    desc: "La collaboration avec Développement Durable m'a permis de partager des pratiques agricoles qui respectent l'écosystème. Leur vision de l'agriculture durable, qui favorise la biodiversité et la sécurité alimentaire, est essentielle pour l'avenir. Je suis convaincu que ces initiatives transformeront notre rapport à l'agriculture.",
   },
   {
     id: 3,
-    name: "Alexander Black",
-    cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    name: "Emiley Yi",
+    cover: "../images/emiley-yi.jpg",
+    post: "Ingénieur en Énergies Renouvelables",
+    desc: "Les projets soutenus par ce parti démontrent l'importance de l'innovation dans le domaine des énergies renouvelables. En intégrant des solutions durables dans nos vies quotidiennes, nous pouvons réduire notre empreinte carbone et créer des environnements plus sains. Je suis fier de contribuer à cette mission.",
   },
   {
     id: 4,
-    name: "Diana Green",
-    cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    name: "Mathiew Fretz",
+    cover: "../images/mathiew-fretz.jpg",
+    post: "Expert en Environnement",
+    desc: "Travailler avec le parti Développement Durable a été une expérience inspirante. Leur engagement envers la préservation de l'environnement et leur volonté d'impliquer la communauté dans des projets éco-responsables montrent qu'un changement positif est possible. Ensemble, nous pouvons bâtir un avenir où la nature et l'humain coexistent en harmonie.",
   },
 ]
 export const showcase = [
