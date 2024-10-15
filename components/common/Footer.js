@@ -39,7 +39,7 @@ const Footer = () => {
                 <Link href='/conference'>Conference</Link>
               </li>
               <li>
-                <Link href='/donate'>Donate</Link>
+                <Link href='/donate'>Faire un Don</Link>
               </li>
               <li>
                 <Link href='/blogs'>Blog</Link>
