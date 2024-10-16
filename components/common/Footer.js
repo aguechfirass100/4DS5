@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
+import Image from "next/image"
 import { BsFacebook } from "react-icons/bs"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 
@@ -10,7 +11,18 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='creative' caption='7' className='logobg' />
+              {/* <TitleLogo title='creative' caption='7' className='logobg' /> */}
+              <div className='logo'>
+            <Link href='/'>
+              <Image
+                src='/images/4DS5-French-Logo-removebg-preview.png'
+                alt='4DS5 Logo'
+                width={150}
+                height={150}
+                className='logomin'
+              />
+            </Link>
+          </div>
               <br />
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm

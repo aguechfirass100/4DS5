@@ -5,6 +5,8 @@ import ShowCase from "@/components/ShowCase"
 import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
+import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 
 const Hero = () => {
@@ -12,7 +14,18 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <TitleLogo title='creative' caption='7' className='logobg' />
+          {/* <TitleLogo title='creative' caption='7' className='logobg' /> */}
+          <div className='logo'>
+            <Link href='/'>
+              <Image
+                src='/images/4DS5-French-Logo-removebg-preview.png'
+                alt='4DS5 Logo'
+                width={200}
+                height={200}
+                className='logomin'
+              />
+            </Link>
+          </div>
           <h1 className='hero-title'>CONSTRUIRE DEMAIN AUJOURD'HUI</h1>
 
           <div className='sub-heading'>
