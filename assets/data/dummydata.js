@@ -42,7 +42,7 @@ export const expertise = [
   },
   {
     id: 4,
-    title: "Community Forums",
+    title: "forums communautaires",
     cover: "../images/Community-Center.png",
     desc: [{ text: "Espace d'Échange" }, { text: "Support Collaboratif" }, { text: "Partage de Ressources" }],
   },

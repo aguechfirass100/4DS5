@@ -72,7 +72,7 @@ const Footer = () => {
                 <Link href='/'>Ateliers Interactifs</Link>
               </li>
               <li>
-                <Link href='/'>Community Forums</Link>
+                <Link href='/'>forums communautaires</Link>
               </li>
             </ul>
             <ul>
